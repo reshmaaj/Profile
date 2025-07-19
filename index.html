@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reshma J</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/460b2cfdc3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <header class="top-bar">
+      <div class="logo">RJ</div>
+      <nav class="nav-links">
+        <a href="#home-section">HOME</a>
+        <a href="#about-section">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#work">WORK</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+
+    <div class="socials">
+      <a href="https://github.com/ReshmaJR" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/reshma-jesurajan1510/"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a href="mailto:reshmajr1015@gmail.com"
+        ><i class="fas fa-envelope"></i
+      ></a>
+      <a href="https://instagram.com/" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+    </div>
+
+    <section id="home-section" class="hero">
+      <div class="center-name">
+        <h2 class="elegant-font">This is,</h2>
+        <h1 id="name">RESHMA J</h1>
+      </div>
+    </section>
+
+
+    <!-- ABOUT-->
+    <section id="about-section" class="about">
+      <div class="about-heading">
+        <h1>About Me</h1>
+      </div>
+      <div class="info-grid">
+        <div class="info-item">
+          <h2>CSE '26 ACEW</h2>
+         
+        </div>
+
+        <div class="info-item">
+          <h2>App Developer</h2>
+         
+        </div>
+
+        <div class="avatar-container">
+          <img src="images/image.png" alt="My Avatar" class="avatar-img" />
+        </div>
+
+        <div class="info-item">
+          <h2>Entrepreneur</h2>
+         
+        </div>
+
+        <div class="info-item">
+          <h2>Quick Learner</h2>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+    <section class="project-section" id="projects">
+      <h1 class="project-heading">Projects</h1>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img
+            src=""
+            alt="Project Illustration"
+          />
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">SwapX</h3>
+          <p class="project-desc">
+            A web-based application for users to Swap their unused items with
+            other users in real-time.
+          </p>
+
+          <div class="tech-icons">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+              alt="Express"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              alt="Node.js"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+            />
+            <!-- <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
+              alt="Socket.io"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+              alt="Docker"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+              alt="GCP"
+            />
+          </div> -->
+
+          <a
+            href="https://your-project-link.com"
+            target="_blank"
+            class="visit-btn"
+            >Visit</a
+          >
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="contact" class="section">
+      <h2>Connect with me</h2>
+      <div class="social-icons">
+        <a href="https://github.com/ReshmaJR" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="mailto:reshmajr1015@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/reshma-jesurajan1510/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://instagram.com/your-handle" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
+    <script>
+      const names = [
+        "RESHMA J",
+        "レシュマ J", // Japanese
+        "रेश्मा जे", // Hindi
+        "ರೇಶ್ಮಾ ಜೆ", // Kannada
+        "ريشما جي", // Arabic
+      ];
+
+      let i = 0;
+      const nameElement = document.getElementById("name");
+
+      setInterval(() => {
+        nameElement.style.opacity = 0;
+        setTimeout(() => {
+          nameElement.textContent = names[i];
+          nameElement.style.opacity = 1;
+          i = (i + 1) % names.length;
+        }, 500);
+      }, 2000);
+    </script>
+  </body>
+</html>
