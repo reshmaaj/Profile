@@ -48,7 +48,7 @@ body, html {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #aec0ff;
+  color: #7f93b2;
   /* color: #7f93b2; */
   padding-left: 20px;
   user-select: none;
@@ -102,6 +102,7 @@ body, html {
   color: #d6cfa1;
 
 }
+
 
 /* .center-name {
   position: absolute;
@@ -238,7 +239,7 @@ body, html {
 
 .project-section {
   padding: 80px 20px;
-  background-color: #0f0f0f;
+  /* background-color: #0f0f0f; */
 }
 
 .project-heading {
@@ -256,7 +257,7 @@ body, html {
   padding: 40px;
   margin: 0 auto;
   max-width: 1000px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
 }
 
 .project-image {
@@ -267,25 +268,30 @@ body, html {
   padding: 10px;
 }
 .project-image img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 
 .project-content {
   flex: 2 1 400px;
   padding: 20px;
+  
 }
 
 .project-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #ffe48d;
   margin-bottom: 10px;
+  text-align: center;
+ 
 }
 
 .project-desc {
   font-size: 1rem;
   margin-bottom: 20px;
   color: #99aabb;
+  text-align: center;
+
 }
 
 .tech-icons {
@@ -293,6 +299,7 @@ body, html {
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
+  justify-content: center;
 }
 .tech-icons img {
   width: 32px;
@@ -314,15 +321,6 @@ body, html {
   color: #0f0f0f;
 }
 
-.inspired-text {
-  font-size: 0.9rem;
-  margin-top: 20px;
-  color: #888;
-}
-.inspired-text a {
-  color: #aec0ff;
-  text-decoration: underline;
-}
 
 /* FOOTER */
 
