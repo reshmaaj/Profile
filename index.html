@@ -155,7 +155,7 @@
         ></a>
       </div>
          <!-- CONTACT FORM -->
-<div class="contact-form">
+<!-- <div class="contact-form">
   <form action="https://formspree.io/f/mqalypvp" method="POST">
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="email" name="email" placeholder="Your Email" required />
@@ -163,7 +163,24 @@
     <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
     <button type="submit">Send Message</button>
   </form>
+</div> -->
+
+
+<!-- NETLIFY CONTACT FORM -->
+<div class="contact-form">
+  <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
+    <input type="hidden" name="form-name" value="contact" />
+    
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="text" name="subject" placeholder="Subject" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    
+    <button type="submit">Send Message</button>
+  </form>
 </div>
+
+
       </section>
 
     <script>
