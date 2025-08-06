@@ -46,27 +46,17 @@
       <div class="center-name">
         <h2 class="elegant-font">This is</h2>
         <h1 id="name">RESHMA J</h1>
-        <!-- <h2 class="description">I'm a passionate Computer Science student with a strong interest in building impactful web applications and solving real-world problems through code. I love working on creative projects, exploring new technologies, and continuously improving my skills. Currently focused on full-stack development and open to internships, collaborations, and exciting opportunities!</h2> -->
-
         <a href="#about-section">
           <button class="home-btn">Know about me</button>
         </a>
       </div>
-      
     </section>
-
-
+    
     <!-- ABOUT-->
     <section id="about-section" class="about">
   <h1 class="about-heading">About Me</h1>
-
   <div class="about-center-container">
     <h2 class="about-desc">CSE Undergrad' 26 | Software Developer | Entrepreneur </h2>
-    <!-- Floating Text -->
-    <!-- <div class="float-text top-left">CSE Undergrad' 26</div>
-    <div class="float-text top-right">Developer</div>
-    <div class="float-text bottom-left">Entrepreneur</div>
-    <div class="float-text bottom-right">Quick Learner</div> -->
 
     <!-- Avatar -->
     <div class="avatar-container">
@@ -89,51 +79,35 @@
   </div>
 </section>
 
-   
     <!-- PROJECT SECTION -->
-    <section class="project-section" id="projects">
-      <h1 class="project-heading">Projects</h1>
 
-      <div class="project-card">
-        <div class="project-image">
-          <img
-            src="images/Swap_img.png"
-            alt="Project Illustration"
-          />
-        </div>
+<section class="projects" id="projects">
+  <h1 class="heading">Projects</h1>
 
-        <div class="project-content">
-          <h3 class="project-title">SwapX</h3>
-          <p class="project-desc">
-            A web-based application for users to Swap their unused items with
-            other users in real-time.
-          </p>
+  <div class="projects-container">
+    <div class="project-box">
+      <h3>SwapX</h3>
+      <img src="./images/Swap_img.png"/>
+      <p>A sustainable swapping platform to exchange unused products securely among users with real-time chat and Firebase backend.</p>
+      
+        <a href="#" target="_blank" class="visit-btn">Visit</a>
+    </div>
 
-          <div class="tech-icons">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-              alt="Express"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-              alt="Node.js"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-              alt="React"
-            />
-         
+    <div class="project-box">
+      <h3>Smart Safety Wearable</h3>
+      <img src="./images/Swap_img.png"/>
+      <p>IoT-based wearable with shock mechanism and location tracking to ensure women's safety, built using sensors and GSM module.</p>
+        <a href="#" target="_blank" class="visit-btn">Visit</a>
+    </div>
 
-          <a
-            href=""
-            target="_blank"
-            class="visit-btn"
-            >Visit</a
-          >
-          
-        </div>
-      </div>
-    </section>
+    <div class="project-box">
+      <h3>Movie App</h3>
+      <img src="./images/Swap_img.png"/>
+      <p>A React web app to stream movies using a public API. Built with Vite, responsive layout, and clean design.</p>
+        <a href="#" target="_blank" class="visit-btn">Visit</a>
+    </div>
+  </div>
+</section>
 
     <!-- FOOTER -->
     <section id="contact" class="section">
@@ -154,17 +128,6 @@
           ><i class="fab fa-instagram"></i
         ></a>
       </div>
-         <!-- CONTACT FORM -->
-<!-- <div class="contact-form">
-  <form action="https://formspree.io/f/mqalypvp" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <input type="subject" name="subject" placeholder="Subject" required />
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</div> -->
-
 
 <!-- NETLIFY CONTACT FORM -->
 <div class="contact-form">
@@ -179,17 +142,15 @@
     <button type="submit">Send Message</button>
   </form>
 </div>
-
-
-      </section>
+    </section>
 
     <script>
       const names = [
         "RESHMA J",
-        "レシュマ J", // Japanese
-        "रेश्मा जे", // Hindi
-        "ರೇಶ್ಮಾ ಜೆ", // Kannada
-        "ريشما جي", // Arabic
+        "レシュマ J", 
+        "रेश्मा जे", 
+        "ರೇಶ್ಮಾ ಜೆ", 
+        "ريشما جي", 
       ];
 
       let i = 0;
