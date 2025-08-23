@@ -516,13 +516,5 @@ body {
   /* text-align: center; */
 }
 
-/* Full-screen floating dots canvas */
-#bg-dots{
-  position: fixed;
-  inset: 0;
-  pointer-events: none;   /* don’t block clicks */
-  z-index: -1;            /* sit behind everything */
-  /* keep transparent so your body background (#0e0d0d) shows through */
-}
 
 
